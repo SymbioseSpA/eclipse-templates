@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+    <template autoinsert="true" context="java" deleted="false" description="JUnit5 AfterEach" enabled="true" name="afterEach (JUnit5)">
+    	${:import(org.junit.jupiter.api.AfterEach)}
+        @AfterEach
+        public void tearDown() {
+        ${cursor}
+        }
+    </template>
+</templates>

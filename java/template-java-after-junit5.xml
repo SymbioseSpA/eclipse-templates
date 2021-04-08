@@ -3,8 +3,8 @@
     <template autoinsert="true" context="java" deleted="false" description="JUnit5 AfterEach" enabled="true" name="afterEach (JUnit5)">
     	${:import(org.junit.jupiter.api.AfterEach)}
         @AfterEach
-        public void tearDown() {
-        ${cursor}
+        void afterEach() {
+        	${cursor}
         }
     </template>
 </templates>
